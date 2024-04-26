@@ -1,9 +1,9 @@
 <?php
 
-$servidor = "localhost";
-$usuario = "root";
-$senha = "12345678";
-$nomeBanco = "segurancaTrabalho";
+$servidor = "seguratrabalho.mysql.uhserver.com";
+$usuario = "brunoherick";
+$senha = "271267Olimpo@";
+$nomeBanco = "seguratrabalho";
 
 try {
     $conexao = new PDO(
