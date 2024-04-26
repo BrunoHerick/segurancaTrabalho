@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <?php include "apibanco.php" ?>
     <div id="titulo">Sistema de Almoxarifado de Segurança do Trabalho</div>
     <ul>
         <li>Dados de Estoque</li>
