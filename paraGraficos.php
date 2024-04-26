@@ -116,14 +116,14 @@ echo '<script>
     </script>';
 
 $total = $camP + $camM + $camG + $luvP + $luvM + $luvG + $bota;
-if ($total == 0) $total = 1;
-$camPp = ($camP / $total) * 100;
-$camMp = ($camM / $total) * 100;
-$camGp = ($camG / $total) * 100;
-$luvPp = ($luvP / $total) * 100;
-$luvMp = ($luvM / $total) * 100;
-$luvGp = ($luvG / $total) * 100;
-$botap = ($bota / $total) * 100;
+if ($total == 0 or $total == 0.0) $total = 1.0;
+$camPp = ($camP / $total) * 100.0;
+$camMp = ($camM / $total) * 100.0;
+$camGp = ($camG / $total) * 100.0;
+$luvPp = ($luvP / $total) * 100.0;
+$luvMp = ($luvM / $total) * 100.0;
+$luvGp = ($luvG / $total) * 100.0;
+$botap = ($bota / $total) * 100.0;
 
 echo '<script>
     const opcoesPizza = {
