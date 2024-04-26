@@ -16,7 +16,7 @@
         <a href="index.php">Dados de Estoque</a>
         <li>Registrar movimentação</li>
     </ul>
-    <form action="https://bhsolkgamp.sslblindado.com/paginaFormulario.php" id="formulario" method="post">
+    <form action="https://bhsolkgamperjcnmsjxudn.com.br/index.php" id="formulario" method="post">
         <div class="campos">
             <label for="tipoMovimentacao">Tipo de movimentação:</label>
             <select name="tipoMovimentacao" id="tipoMovimentacao" onchange="verificaMov()">
